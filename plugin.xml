@@ -32,6 +32,11 @@
         
         <config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion">
             <string>Japan</string>
+        </config-file>
+        <config-file target="*-Info.plist" parent="CFBundleLocalizations">
+            <array>
+                <string>ja</string>
+            </array>
         </config-file>    
         
     </platform>
